@@ -12,3 +12,4 @@ _multiconfig.yml
 .env.local
 .env.*.local
 AGENTS.md
+obsidian-workspace/
