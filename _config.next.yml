@@ -90,3 +90,17 @@ local_search:
   top_n_per_article: 1
   unescape: false
   preload: false
+
+# Comments - Utterances
+# Uses GitHub Issues for comments, no OAuth app required
+comments:
+  style: tabs
+  active: utterances
+  storage: true
+  lazyload: false
+
+utterances:
+  enable: true
+  repo: cenjing8393-netizen/tech-blog
+  issue_term: pathname
+  theme: github-light
