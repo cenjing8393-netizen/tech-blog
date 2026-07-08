@@ -11,5 +11,8 @@ _multiconfig.yml
 .env
 .env.local
 .env.*.local
+
+# Generated images (use separate image repo)
+slides/generated/
 AGENTS.md
 obsidian-workspace/
