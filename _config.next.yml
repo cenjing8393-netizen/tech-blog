@@ -2,7 +2,7 @@
 # See: https://theme-next.js.org/docs/getting-started/configuration
 
 # Scheme
-scheme: Gemini
+scheme: Pisces
 
 # Dark Mode
 darkmode: true
@@ -59,8 +59,8 @@ post_meta:
 # Code block
 codeblock:
   theme:
-    light: default
-    dark: stackoverflow-dark
+    light: github-dark-dimmed
+    dark: github-dark-dimmed
   copy_button:
     enable: true
     style: flat
@@ -103,4 +103,13 @@ utterances:
   enable: true
   repo: cenjing8393-netizen/tech-blog
   issue_term: pathname
-  theme: github-light
+  theme: preferred-color-scheme
+
+# Custom file paths (inject custom HTML)
+custom_file_path:
+  head: source/_data/head.njk
+  header: source/_data/header.njk
+
+# Google Tag Manager Container ID
+# 留空 = 不啟用；填入 GTM-XXXXXXX 即開啟 GA 追蹤
+gtm_container_id: ""
