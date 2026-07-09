@@ -185,8 +185,6 @@ description: 什麼是 HTML 語意化標籤？為什麼不要什麼都用 <div> 
 
 ![對比漫畫：div vs 語意化標籤](https://cdn.jsdelivr.net/gh/cenjing8393-netizen/tech-blog-images/images/blog-cover-semantic-comparison.png)
 
-## 圖片提示詞
-
 ## 參考資料
 
 - [MDN Web Docs — HTML 語意元素](https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics)
