@@ -11,6 +11,8 @@ categories:
 description: Flexbox 的實戰學習筆記，記錄導覽列、垂直居中、卡片列表、黏底 footer、表單對齊五個常用場景與程式碼。
 ---
 
+![flexbox-vertical-center.png](https://cdn.jsdelivr.net/gh/cenjing8393-netizen/tech-blog-images/images/flexbox-vertical-center.png)
+
 ## 為什麼學 Flexbox
 
 在 Flexbox 出現之前，做垂直居中要寫 `position: absolute` + `transform`，做等高欄位要靠 JavaScript。Flexbox 把這些問題全簡化成幾行 CSS。
@@ -131,3 +133,10 @@ footer {
 `flex: 1` 是 `flex: 1 1 0%`，基準寬度 0 所以等分空間。如果要內容自適應寬度，用 `flex: auto`。
 
 Flexbox 是一維，Grid 是二維，兩者互補不是取代。但八九成的版面問題，一行 `display: flex` 就夠了。
+
+## 參考資料
+
+- [MDN Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox Froggy — 互動式學習遊戲](https://flexboxfroggy.com/)
+- [DevPalettes — Complete CSS Flexbox Guide (2026 Edition)](https://devpalettes.com/blog/css-flexbox-guide/)

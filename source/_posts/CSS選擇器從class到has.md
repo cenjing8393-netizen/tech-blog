@@ -10,6 +10,8 @@ categories:
 description: CSS 選擇器的學習筆記，從基本的 class、ID 到現代的 :has()，記錄每次用到的選擇器與實戰範例。
 ---
 
+![css-selector-map.png](https://cdn.jsdelivr.net/gh/cenjing8393-netizen/tech-blog-images/images/css-selector-map.png)
+
 ## 我的學習路徑
 
 我剛開始寫 CSS 的時候，從頭到尾只靠 class 選擇器。什麼東西都用 class 命名，class 長到像在寫小說。
@@ -115,3 +117,11 @@ p::first-line { font-weight: bold; }
 ## 學到的心得
 
 先從 class 和組合器開始，遇到需要篩選特定元素的時候，再來翻偽類。等到習慣用 `:nth-child` 取代 `.item-1`、`.item-2` 的時候，就回不去了。
+
+## 參考資料
+
+- [MDN Web Docs — :nth-child()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:nth-child)
+- [CSS 選擇器完整列表 — 菜鸟教程](https://www.runoob.com/cssref/css-selectors.html)
+- [STEAM 教育學習網 — CSS 選擇器](https://steam.oxxostudio.tw/category/css/selector/about-selector.html)
+- [Chrome Developers — :nth-child() of S 語法](https://developer.chrome.com/docs/css-ui/css-nth-child-of-s?hl=zh-tw)
+- [新人日誌 — CSS first-child、last-child、nth-child 指南](https://realnewbie.com/posts/css-first-childlast-childnth-child-nth-of-type)

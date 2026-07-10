@@ -12,6 +12,8 @@ categories:
 description: 我的 HTML 語意化標籤學習筆記，記錄 header、main、article 等常用語意標籤與完整頁面骨架範例。
 ---
 
+![HTML 語意化標籤](https://cdn.jsdelivr.net/gh/cenjing8393-netizen/tech-blog-images/images/blog-cover-accessibility.png)
+
 ## 為什麼要學
 
 我剛學 HTML 的時候，很習慣什麼都用 `<div>` 包。左邊一個 div，右邊一個 div，全部塞進 div。
@@ -132,3 +134,16 @@ description: 我的 HTML 語意化標籤學習筆記，記錄 header、main、ar
 ## 學到的一句話
 
 下次寫 HTML 的時候問自己：「這個 div 真的需要嗎？還是換成語意標籤更適合？」
+
+![對比漫畫：div vs 語意化標籤](https://cdn.jsdelivr.net/gh/cenjing8393-netizen/tech-blog-images/images/blog-cover-semantic-comparison.png)
+
+## 參考資料
+
+- [MDN Web Docs — HTML 語意元素](https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics)
+- [iThome 鐵人賽 — HTML5 的語意標籤介紹](https://ithelp.ithome.com.tw/articles/10240446)
+- [vocus — 我花了兩週學會 HTML：5 個語意標籤初學者真正需要](https://vocus.cc/article/690078ddfd897800017e9d4c)
+- [愛立歐網路 — 2026 HTML 架構教學：從草稿到語意化版型](https://www.ileo.com.tw/school-detail/html5-website-structure-guide/)
+- [W3C — HTML5 規範：The aside element](https://html.spec.whatwg.org/multipage/sections.html#the-aside-element)
+- [新視野網頁設計 — HTML \<strong\>、\<b\>、\<em\> 標籤語意與正確用法](https://www.nsc.tw/article_detail/html-strong-b-em-tags-usage-guide)
+- [文網股份 — HTML 語意標籤：提升網頁設計的語意結構與可訪問性](https://www.cx.com.tw/modules/news/article.php?storyid=135)
+- [Sean 工作版 — HTML 5 基本語法、語意標籤、元素總整理](https://seanacnet.com/html/html5-tag/)
