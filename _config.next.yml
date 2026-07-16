@@ -113,3 +113,7 @@ custom_file_path:
 # Google Tag Manager Container ID
 # 留空 = 不啟用；填入 GTM-XXXXXXX 即開啟 GA 追蹤
 gtm_container_id: ""
+
+# Google AdSense Publisher ID
+# 留空 = 不啟用；填入 ca-pub-XXXXXXXXXXXXXX 即啟用自動廣告
+adsense_client_id: ""

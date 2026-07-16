@@ -32,6 +32,7 @@ jobs:
       - name: Inject env vars & build site
         run: |
           sed -i "s/gtm_container_id: \"\"/gtm_container_id: \"${{ vars.GTM_CONTAINER_ID }}\"/" _config.next.yml
+          sed -i "s/adsense_client_id: \"\"/adsense_client_id: \"${{ vars.ADSENSE_CLIENT_ID }}\"/" _config.next.yml
           node ./node_modules/hexo-cli/bin/hexo generate
 
       - uses: actions/upload-pages-artifact@v3
